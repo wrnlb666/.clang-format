@@ -1,5 +1,10 @@
 BasedOnStyle: Google
 IndentWidth: 4
-ColumnLimit: 256
+ColumnLimit: 0
 IndentPPDirectives: BeforeHash
-AllowShortEnumsOnASingleLine: false
+AlignConsecutiveMacros: true
+AlignEscapedNewlines: Left
+AllowShortFunctionsOnASingleLine: Inline
+AlignConsecutiveDeclarations: true
+DerivePointerAlignment: false
+PointerAlignment: Left
